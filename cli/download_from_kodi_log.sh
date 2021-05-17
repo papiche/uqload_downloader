@@ -38,7 +38,7 @@ do
 	echo "########################################################################"
 	echo "MANUAL : uqload_downloader https://uqload.com/$uqlink \"$HOME/astroport/$uqname.mp4\""
 	## CHECK & MANAGE COPY
-	if [[ $(find $HOME/astroport -name "$uqname.mp4" -type f -print) ]];
+	if [[ $(find $HOME/astroport -name "$uqname*" -type f -print) ]];
 	then
 		echo "COPY ALREADY IN $HOME/astroport/"
 	else
