@@ -1,4 +1,4 @@
-#!/bin/bah
+#!/bin/bash
 {
 		cd /tmp
 		git clone https://github.com/papiche/uqload_downloader.git
